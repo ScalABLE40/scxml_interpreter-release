@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>scxml_interpreter</name>
+  <version>0.1.1</version>
+  <description>The SCXML interpreter packages. It contains the Parser API, the SCXML Interface, and SMACH builder</description>
+
+  <maintainer email="ludovic.delval@ipa.fhg.de">Ludovic DELVAL</maintainer>
+
+  <license>BSD</license>
+
+
+  <!-- <url type="website">http://wiki.ros.org/scxml_interpreter</url> -->
+
+  <author email="ludovic.delval@ipa.fhg.de">Ludovic Delval</author>
+  <author email="shruti.subramanian@ipa.fhg.de">Shruti Subramanian</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rostest</build_depend>
+  <depend>rospy</depend>
+  <depend>smach</depend>
+
+
+
+  <export>
+
+  </export>
+</package>
